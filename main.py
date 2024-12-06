@@ -11,7 +11,6 @@ def Mean3x3Filter(img):
             
             img_filtered[i, j] = min(mean, 255)
 
-    #Tratar borda
     return img_filtered
 
 def orderByValue(arr):
