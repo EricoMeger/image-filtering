@@ -12,7 +12,7 @@ median_filter = median3x3Filter(img)
 
 cv2.imshow("img", img)
 cv2.imshow("mean", mean_filter)
-cv2.imshow("median", median_filter) 
-cv2.waitKey(0)
+cv2.imshow("median", median_filter)
 
+cv2.waitKey(0)
 cv2.destroyAllWindows()
